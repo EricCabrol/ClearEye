@@ -1,48 +1,73 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+	<title>reveal.js</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section data-markdown>
-					<textarea data-template>
-					  ## ClearEye Technologies
-					  Picture this: a sprawling parking lot with thousands of vehicles, each waiting to be efficiently transported to its destination. Navigating this outdoor labyrinth poses unique challenges, and that's where [Your Startup Name] steps in. With our cutting-edge vision-based software, we're not just revolutionizing automated guided vehicles; we're transforming the way finished vehicle logistics operate in the great outdoors
-					  ---
-					  ## Slide 2
-					  ---
-					  ## Slide 3
-					</textarea>
-				  </section>
-			</div>
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	<style>
+		.reveal h1,
+		.reveal h2,
+		.reveal h3,
+		.reveal h4,
+		.reveal h5 {
+			text-transform: none;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h1>ClearEye Technologies</h1>
+
+			</section>
+			<section>
+				<p>
+					Picture this: a parking lot with thousands of vehicles, each waiting to be efficiently
+					transported to its destination. Humans and robots are collaborating seamlessly. Navigating this outdoor labyrinth poses unique safety challenges,
+					and that's our mission at
+				<h4>ClearEye Technologies</h4>
+
+				</p>
+			</section>
+			<section>
+				With our cutting-edge vision-based software, we're transforming the way AGVs and valet parking robots can operate. Based in the heart of Paris, our team is passionate about leveraging
+				state-of-the-art AI techniques. 
+			</section>
+			<section>
+				In the landscape of logistics, safety is paramount. Our vision-based AI software at ClearEye Technologies directly addresses this demand, offering a robust solution for those prioritizing safety in their logistics operations.
+
+
+
+			</section>
 		</div>
+	</div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
 </html>
