@@ -56,7 +56,6 @@
 				<p class="fragment fade-in-then-out">We offer a <em>cost-efficient</em> solution to ...</p>
 					<ul>
 						<li class="fragment">detect efficiently human presence</li>
-						<li class="fragment">improve localisation performance </li>
 						<li class="fragment">monitor your assets in real-time <br />to build a true <em class="fragment highlight-blue">digital twin</em></li>
 					</ul>
 			
@@ -67,9 +66,9 @@
 			</section>
 
 			<section>
-				<p>Why ? Adapting the robot behaviour when a human <br> (or an unexpected event) is detected</p>
+				<p>Why ?<br> Adapting the robot behaviour when a human <br> (or an unexpected event) is detected</p>
 				<br>
-				<p>How ? Real-time computer vision</p>
+				<p>How ?<br> Leveraging real-time computer vision, <br> bringing semantic information</p>
 			</section>
 
 			<section>
@@ -77,7 +76,7 @@
 					<video data-autoplay src="media/mask_rcnn_R_50_FPN_3x.mp4"></video>
 				</section>
 				<section>
-					The previous result was obtained with a model from the R-CNN family (Region Based Convolutional Neural Networks) based on the ResNet-50 architecture.
+					The previous result was obtained with a model from the R-CNN family (Region Based Convolutional Neural Networks), which is state-of-the-art for object detection.
 					<br><br>
 					We also tested SAM (Segment Anything Model), released by Meta AI in April 2023, which is a promptable segmentation system :
 				</section>
@@ -91,26 +90,34 @@
 			</section>
 
 			<section>
-				<section><p>Because we can even perform human skeleton detection with low-res cameras</p>
-					<video data-autoplay src="media/yolox_redim.mp4"></video>
+				<section><p>Because we can detect skeletons with low-res cameras</p>
+					<small>(here with another model called YOLOX, introduced in 2021)</small>
+					<video data-autoplay src="media/hackathon_yolox_skeleton.mp4"></video>
 				</section>
 				<section>
 					<p>Even when the persons are far from the robot</p>
-					<video data-autoplay src="media/video_2023_12_08.mp4"></video>
+					<video data-autoplay src="media/hackathon_even_far.mp4"></video>
 				</section>
+
+				<section>
+					<p>And in harsh conditions</p>
+					<video data-autoplay src="media/hackathon-even harsh environment.mp4"></video>
+				</section>
+				
 				<section>
 					<p>We can handle fisheye lenses the same way</p>
 					<img src="media/rcnn_fisheye.png">
 				</section>
-				<section>
-					<p>Here with another model called YOLOX, introduced in 2021</p>
-					<img src="media/Yolox_2.png">
-					</section>
-				</section>
+
 			</section>
 
 			<section>
 				<p><h2>Build a true digital twin</h2></p>
+			</section>
+
+			<section>
+				<p>Collecting vehicle information, including orientation</p>
+				<img src="media/vehicle_information.png">
 			</section>
 
 			<section>
@@ -121,8 +128,25 @@
 
 
 			<section>
-				<p>THE ultimate digital twin !</p>
+				<p>Builiding THE ultimate digital twin of a compound !</p>
 				<video data-autoplay src="media/Screencast_Aurelien.mp4"></video>
+			</section>
+
+			<section>
+				<h2>Next steps</h2>
+			</section>
+			<section>
+				<section>
+					Improving robot alignment using vehicle segmentation
+					<img src="media/vehicle_segmentation.png">
+				</section>
+
+				<section>
+					And also :
+					<ul>
+						<li>Improve localisation performance with Visual SLAM</li>
+					</ul>
+				</section>
 			</section>
 
 
